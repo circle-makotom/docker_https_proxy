@@ -1,0 +1,8 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: makotom/https_proxy
+    steps:
+      - run: echo Hello!
