@@ -6,6 +6,4 @@ jobs:
       - image: makotom/https_proxy
     steps:
       - run: echo Hello!
-      - run: env > env.txt
-      - store_artifacts:
-          path: env.txt
+
