@@ -6,4 +6,3 @@ jobs:
       - image: makotom/https_proxy
     steps:
       - run: echo Hello!
-
